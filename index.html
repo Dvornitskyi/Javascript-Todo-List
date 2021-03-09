@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Javascript Todo List</title>
+  </head>
+  <body>
+    <div class="todo">
+      <div class="todo__header">
+        <h2 class="todo__title">Javascript Todo List</h2>
+        <form class="todo__add add">
+          <label class="todo__header-text"
+            >Add a new todo by typing and then pressing ENTER</label
+          >
+          <input class="todo__input" type="text" name="add"/>
+        </form>
+      </div>
+
+      <ul class="todo__list todos">
+        <li
+          class="todo__elment-list"
+        >
+          <span class="todo__text-list">enter the brands of cars here</span>
+          <i class="fas fa-trash-alt delete"></i>
+        </li>
+        <li
+          class="todo__elment-list"
+        >
+          <span>the first ones that come to your mind</span>
+          <i class="fas fa-trash-alt delete"></i>
+        </li>
+        <li
+          class="todo__elment-list"
+        >
+          <span>if you made a mistake you can delete</span>
+          <i class="fas fa-trash-alt delete"></i>
+        </li>
+        <li
+          class="todo__elment-list"
+        >
+          <span>below there is a list search</span>
+          <i class="fas fa-trash-alt delete"></i>
+        </li>
+      </ul>
+    </div>
+    <form class="todo__search search">
+      <input
+        class="todo__elment-search"
+        type="text"
+        placeholder="search todos list"
+        name="search"
+      />
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
